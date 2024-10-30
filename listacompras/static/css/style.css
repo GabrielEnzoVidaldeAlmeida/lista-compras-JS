@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(131, 128, 98);
+    justify-items: center;
+}
+h1{
+    justify-self: center;
+    margin-top: 120px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+form{
+    margin-top: 80px;
+}
+pre{
+    background-color: white;
+    border-radius: 2px;
+}
+#nomeitem{
+    margin-left: 30px;
+}
+#btnAdicionar{
+    margin-left: 20px;
+}

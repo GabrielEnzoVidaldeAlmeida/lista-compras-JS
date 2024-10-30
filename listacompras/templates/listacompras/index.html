@@ -1,0 +1,31 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Compras</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <h1>Lista de Compras:</h1>
+
+    <form>
+        <p>
+            Item:
+            <input type="text" id="nomeitem" required>
+            
+        </p>
+        <p>
+            Unidades:
+            <input type="number" id="unidades" required>
+        </p>
+        <input type="submit" value="Adicionar item" id="btnAdicionar">
+        <input type="button" value="Remover item" id="btnRemover">
+    </form>
+
+    <pre></pre>
+
+    <script src="{% static 'js/script.js' %}"></script> 
+</body>
+</html>
